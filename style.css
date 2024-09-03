@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    height: 100px;
+    width: 1500px;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background: white;
+    flex-wrap: wrap;
+}
+.table{
+    height: 500px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid black;
+    background: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.red{
+    height: 80px;
+    width: 80px;
+    background: red;
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
+.yellow{
+    height: 80px;
+    width: 80px;
+    background: yellow;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.blue{
+    height: 80px;
+    width: 80px;
+    background: blue;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.black{
+    height: 80px;
+    width: 80px;
+    background: black;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.del{
+    height: 80px;
+    width: 80px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+}
+.table2{
+    height: 500px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    border: 3px solid black;
+    background: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.red2{
+    height: 80px;
+    width: 80px;
+    background: red;
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
+.yellow2{
+    height: 80px;
+    width: 80px;
+    background: yellow;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.blue2{
+    height: 80px;
+    width: 80px;
+    background: blue;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.black2{
+    height: 80px;
+    width: 80px;
+    background: black;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.del2{
+    height: 80px;
+    width: 80px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+}
